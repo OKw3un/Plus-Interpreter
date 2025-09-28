@@ -1,0 +1,10 @@
+number size; *variable declarements*
+number sum;  *default value is 0*
+
+size:= 5;     *assignments*
+
+repeat size times   *repeat*
+{ write size and newline;
+  sum+=size;
+}
+write newline and "Sum:" and sum;  *write statement*
